@@ -1,0 +1,151 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+}
+.lets_help{
+	background: url(../img/donation0.jpg);
+  	background-blend-mode: multiply;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #8b8b8b;
+	text-align: center;
+	color: #fff;
+}
+.lets_help div{
+	padding: 120px 0;
+}
+.lets_help h1{
+	font-size: 56px;
+}
+.lets_help p{
+	margin-bottom: 45px;
+}
+.btn{
+	font-weight: 600;
+	background-color: #000;
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin: 0 auto;
+	text-decoration: auto;
+}
+.donate_today, .donate_plan, .get_update{
+	text-align: center;
+	margin: 100px 0;
+}
+.donate_today h1, .donate_plan h1, .get_update h1{
+	font-size: 40px;
+}
+.donate_amount_btn{
+	margin-top: 50px;
+}
+.donate_amount_submit{
+	display: inline-grid;
+}
+.donate_amount_btn button{
+	font-size: 25px;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    padding: 35px;
+    margin-left: 15px;
+}
+.donate_amount_btn button:hover, .donate_amount_btn .active{
+	border: 1px solid #000;
+    background: #000;
+    color: #fff;
+}
+.donate_today .amount{
+	border: none;
+    width: 500px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.donate_plan_details{
+	display: flex;
+	width: 950px;
+    margin: 0 auto;
+	padding: 0 5%;
+	margin-top: 50px;
+}
+.donate_plan_details .food_plan{
+	width: 32%;
+	background: #e5edf5;
+	border-radius: 5px;
+	text-align: left ;
+	margin-right: 20px;
+	padding: 40px 20px;
+}
+.donate_plan_details .shelter_plan{
+	width: 32%;
+	background: #ffb6c1a8;
+	border-radius: 5px;
+	text-align: left ;
+	margin-right: 20px;
+	padding: 40px 20px;
+}
+.donate_plan_details .education_plan{
+	width: 32%;
+	background: cornsilk;
+	text-align: left ;
+	border-radius: 5px;
+	padding: 40px 20px;
+}
+.change_life{
+	background: url(../img/home-footer.webp);
+  	background-blend-mode: multiply;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #8b8b8b;
+	text-align: center;
+	color: #fff;
+}
+.change_life div{
+	padding: 120px 0;
+}
+.change_life h1{
+	font-size: 40px;
+}
+.change_life p{
+	margin-bottom: 45px;
+}
+.change_life .btn{
+	background: transparent;
+	border: 2px solid #fff;
+	margin-left: 20px;
+}
+.subscribe{
+	width: 600px;
+	background: cornsilk;
+	display: inline-block;
+    justify-content: center;
+	padding: 60px;
+    margin: 2% 5% 3%;
+    border-radius: 5px;
+}
+.subscribe_input{
+	border: none;
+	padding: 12px;
+}
+footer{
+	text-align: center;
+	background: #000;
+	color: #fff;
+}
+footer h2{
+	color: #ff4c67;
+	font-family: auto;
+	padding-top: 50px;
+	font-style: italic;
+}
+footer p{
+	margin: 0;
+	padding-bottom: 50px;
+}
+footer p small{
+	margin: 0;
+}
